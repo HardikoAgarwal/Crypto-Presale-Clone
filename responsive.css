@@ -1,0 +1,561 @@
+@media (min-width:1580px){
+    .head-cont h1 {
+        font-size: 54px;
+    }
+    .head-cont p {
+        font-size: 20px;
+    }
+    .head-links {
+        width: 640px;
+    }
+    .head-links a {
+        width: 90%;
+        font-size: 16px;
+    }
+    .info1-card h4 {
+        font-size: 18px;
+    }
+    .info1-card p {
+        font-size: 20px;
+    }
+    .info2-btn i {
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+    }
+    .info2-btn p {
+        font-size: 20px;
+    }
+    .info3 p {
+        font-size: 20px;
+    }
+    .info3-card1 img, #wlt-balance img {
+        height: 25px;
+        width: 25px;
+    }
+    .info4 span h4 {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .info4 span p {
+        font-size: 22px;
+    }
+    .info6 span {
+        font-size: 22px;
+    }
+    .key1 i, .key2 i {
+        font-size: 16px;
+    }
+    .key1 p, .key2 p {
+        font-size: 18px;
+    }
+    .key-bar {
+        height: 8vh;
+        padding: 9px 20px;
+    }
+    .footer-card span i {
+        font-size: 38px;
+    }
+    .footer-card span h2 {
+        font-size: 34px;
+    }
+    .footer-card p {
+        font-size: 20px;
+    }
+    footer p {
+        font-size: 16px;
+    }
+}
+@media (min-width:1001px) and (max-width:1200px){
+    .hamburger{
+        display: block;
+    }
+    .side-bar{
+        display: none;
+    }
+    .side-btn{
+        display: none;
+    }
+    .side-items{
+        width: 100%;
+    }
+    .body{
+        width: 100%;
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+}
+@media (min-width:1001px) and (max-width:1100px){
+    .head-cont h1 {
+        font-size: 42px;
+    }
+    .head-cont p {
+        font-size: 16px;
+        padding-top: 4px;
+    }
+    .head-links {
+        width: 700px;
+    }
+    .stats-timer {
+        width: 280px;
+        height: 331px;
+    }
+    .stats-info {
+        width: calc(100% - 280px);
+    }
+    .info1-card h4 {
+        font-size: 14px;
+    }
+    .info1-card p {
+        font-size: 14px;
+    }
+    .info3 p {
+        font-size: 14px;
+    }
+    .info3 {
+        padding: 0px 12px;
+    }
+    footer-card span i {
+        font-size: 28px;
+    }
+    .footer-card span h2 {
+        font-size: 26px;
+    }
+    .footer-card p {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+}
+@media (max-width: 1000px){
+    .hamburger{
+        display: block;
+    }
+    .side-bar{
+        display: none;
+    }
+    .side-btn{
+        display: none;
+    }
+    .side-items{
+        width: 100%;
+    }
+    .body{
+        width: 100%;
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+    nav{
+        padding: 2px 16px;
+    }
+    nav img{
+        width: 38px;
+        height: 38px;
+    }
+    nav p{
+        font-size: 0px;
+    }
+    nav span{
+        font-size: 0px;
+    }
+    .nav-button{
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+    .body{
+        padding: 16px;
+    }
+    .body-head{
+        overflow: hidden;
+        flex-direction: column;
+        padding: 8px;
+        background-color: transparent;
+    }
+    .body-head img{
+        height: 70%;
+        width: 70%;
+    }
+    .head-cont{
+        width: 100%;
+        height: fit-content;
+        padding: 0px;
+    }
+    .head-cont h1{
+        font-size: 24px;
+        text-align: center;
+        padding: 8px;
+    }
+    .head-cont p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .head-links{
+        height: fit-content;
+        width: 90%;
+        margin-top: 24px;
+        background-color: transparent;
+        gap: 12px;
+    }
+    .head-links a{
+        background-color: #282828;
+        border-radius: 6px;
+    }
+    .body-stats{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .stats-timer{
+        flex-direction: row;
+        width: 100%;
+        height: fit-content;
+        padding: 12px 6px;
+        justify-content: space-between;
+        gap: 12px;
+    }
+    .timer1:nth-child(1){
+        width: 50%;
+        height: 75px;
+        justify-content: flex-end;
+        gap: 12px;
+    }
+    .timer1:nth-child(2){
+        width: 50%;
+        height: 75px;
+        justify-content: flex-start;
+        gap: 12px;
+    }
+    .timer-box{
+        width: 44%;
+    }
+    .timer-box p{
+        font-size: 32px;
+        font-weight: 800;
+    }
+    .timer-box span{
+        font-size: 12px;
+        height: 20%;
+        font-weight: 600;
+    }
+    .timer2{
+        display: none;
+    }
+    .stats-info{
+        width: 100%;
+        height: fit-content;
+        margin-left: 0px;
+    }
+    .info1{
+        height: fit-content;
+        width: 100%;
+        flex-direction: column;
+        gap: 8px;
+        padding: 10px 2px;
+        margin-top: 12px;
+    }
+    .info1-card{
+        width: 95%;
+        height: fit-content;
+        padding: 8px 4px;
+    }
+    .info2{
+        height: fit-content;
+        margin-top: 12px;
+    }
+    .info2-btn{
+        height: 40px;
+        width: 49.5%;
+        padding: 4px 4px;
+    }
+    .info2-btn i{
+        height: 16px;
+        width: 16px;
+        padding: 12px;
+    }
+    .info2-btn p{
+        font-size: 10px;
+        padding-left: 6px;
+    }
+    .info3{
+        flex-direction: column;
+        margin-top: 12px;
+        height: fit-content;
+        padding: 8px 2px;
+    }
+    .info3 p{
+        padding: 4px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .info3-cards{
+        width: 100%;
+        height: fit-content;
+        justify-content: space-around;
+        padding: 8px;
+    }
+    .info3-card1{
+        width: 24%;
+        height: 40px;
+        border-radius: 6px;
+    }
+    .info3-card1 img, #wlt-balance img{
+        height: 16px;
+        width: 16px;
+    }
+    .info4{
+        height: fit-content;
+        padding: 0px;
+        flex-direction: column;
+        margin-top: 12px;
+        gap: 12px;
+        background-color: transparent;
+    }
+    .info4 span{
+        background-color: rgb(10, 10, 10);
+        width: 100%;
+        height: fit-content;
+        border-radius: 8px;
+    }
+    .info4 span h4{
+        padding: 4px;
+    }
+    .info4 span p{
+        font-size: 14px;
+    }
+    .info5{
+        margin-top: 12px;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .input{
+        width: 100%;
+        padding: 12px 16px;
+    }
+    .info5 button{
+        height: fit-content;
+        width: 100%;
+        padding: 4px 6px;
+        font-size: 14px;
+    }
+    .info6{
+        margin-top: 12px;
+        height: fit-content;
+        
+    }
+    .info6 span {
+        height: fit-content;
+        width: 12%;
+        font-size: 10px;
+        font-weight: 400;
+        border-radius: 6px;
+        padding: 6px 2px;
+    }
+    .key-bar{
+        height: fit-content;
+        flex-direction: column;
+        padding: 8px 4px;
+    }
+    .key1 i, .key2 i{
+        padding: 4px;
+        font-size: 10px;
+    }
+    .key1 p, .key2 p {
+        font-size: 10px;
+    }
+    .key2 i{
+        padding: 8px;
+        font-size: 10px;
+    }
+    .key2 p{
+        padding: 4px 6px;
+        background-color: rgb(40, 40, 40);
+        border-radius: 6px;
+    }
+    .footer-info{
+        flex-direction: column;
+        gap: 18px;
+    }
+    .footer-card {
+        width: 100%;
+        border-radius: 8px;
+        padding: 16px 18px;
+    }
+    .footer-card span i{
+        font-size: 24px;
+    }
+    .footer-card span h2{
+        font-size: 22px;
+    }
+    .footer-card p{
+        font-size: 14px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+}
+@media (min-width: 561px ) and (max-width:1000px){
+    .body-head img {
+        height: 40%;
+        width: 40%;
+    }
+    .head-links a i {
+        font-size: 14px;
+    }
+    .head-links a {
+        font-size: 16px;
+    }
+    .timer1:nth-child(1), .timer1:nth-child(2) {
+        height: 120px;
+    }
+    .timer-box {
+        width: 48%;
+    }
+    .timer-box p {
+        font-size: 60px;
+    }
+    .timer-box span {
+        font-size: 14px;
+    }
+    .info2-btn p {
+        font-size: 15px;
+    }
+    .info6 span {
+        font-size: 16px;
+    }
+    .key-bar {
+        padding: 14px 4px;
+        gap: 6px;
+    }
+    .key1 i, .key2 i {
+        font-size: 14px;
+    }
+    .key1 p, .key2 p {
+        font-size: 14px;
+    }
+    .footer-card span i {
+        font-size: 26px;
+    }
+    .footer-card span h2 {
+        font-size: 24px;
+    }
+    .footer-card p {
+        font-size: 15px;
+    }
+    footer p {
+        font-size: 11px;
+    }
+}
+@media (min-width: 481px ) and (max-width:560px){
+    nav img {
+        width: 50px;
+        height: 50px;
+    }
+    .nav-button {
+        font-size: 16px;
+    }
+    .body-head img {
+        height: 55%;
+        width: 55%;
+    }
+    .head-cont h1 {
+        font-size: 30px;
+        padding: 12px;
+    }
+    .head-cont p {
+        font-size: 16px;
+    }
+    .head-links {
+        width: 100%;
+    }
+    .head-links a {
+        width: 90%;
+        padding: 12px 6px;
+        font-size: 18px;
+    }
+    .timer1:nth-child(1), .timer1:nth-child(2) {
+        height: 90px;
+    }
+    .timer-box {
+        width: 48%;
+    }
+    .info2-btn p {
+        font-size: 15px;
+    }
+    .info6 span {
+        font-size: 16px;
+    }
+    .key-bar {
+        padding: 14px 4px;
+        gap: 6px;
+    }
+    .key1 i, .key2 i {
+        font-size: 14px;
+    }
+    .key1 p, .key2 p {
+        font-size: 14px;
+    }
+    .footer-card span i {
+        font-size: 26px;
+    }
+    .footer-card span h2 {
+        font-size: 24px;
+    }
+    .footer-card p {
+        font-size: 15px;
+    }
+    footer p {
+        font-size: 11px;
+    }
+
+}
+@media (min-width: 420px ) and (max-width:480px){
+    .body-head img {
+        height: 60%;
+        width: 60%;
+    }
+    .head-cont h1 {
+        font-size: 27px;
+        padding: 12px;
+    }
+    .head-cont p {
+        font-size: 16px;
+    }
+    .head-links {
+        width: 95%;
+    }
+    .head-links a {
+        width: 90%;
+        font-size: 16px;
+    }
+    .timer1:nth-child(1), .timer1:nth-child(2) {
+        height: 80px;
+    }
+    .timer-box {
+        width: 46%;
+    }
+    .info2-btn i {
+        height: 18px;
+        width: 18px;
+        padding: 12px;
+    }
+    .info2-btn p {
+        font-size: 13px;
+    }
+    .info5 button {
+        padding: 2px 6px;
+        font-size: 16px;
+    }
+    .info6 span {
+        font-size: 14px;
+    }
+    .key-bar {
+        padding: 12px 4px;
+        gap: 4px;
+    }
+    .key1 i, .key2 i {
+        font-size: 12px;
+    }
+    .key1 p, .key2 p {
+        font-size: 12px;
+    }
+    
+}
+
