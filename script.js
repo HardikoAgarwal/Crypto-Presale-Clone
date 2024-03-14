@@ -21,6 +21,7 @@ function openNav() {
     const balanceText = document.getElementById("balance-text");
     const paragraphs = document.querySelectorAll('.icons-name');
     const iconCaps = document.querySelectorAll(".icons-caps");
+    const themeToogle = document.getElementById("theme-toogle");
 
     if (sidebar.style.width === "8vw") {
         sidebar.style.width = "18vw";
@@ -32,6 +33,7 @@ function openNav() {
         balance.style.width = "100%";
         balanceText.style.fontSize = "14px";
         iconCaps.forEach(iconCap => iconCap.style.width = '100%');
+        themeToogle.style.display = 'flex';
     }
     else if (sidebar.style.display !== 'none') {
         sidebar.style.width = "8vw";
@@ -43,6 +45,7 @@ function openNav() {
         balance.style.width = "fit-content";
         balanceText.style.fontSize = "0px";
         iconCaps.forEach(iconCap => iconCap.style.width = 'fit-content');
+        themeToogle.style.display = 'none';
     }
 }
 function openHam() {
@@ -53,7 +56,8 @@ function openHam() {
     const balanceText = document.getElementById("balance-text");
     const paragraphs = document.querySelectorAll('.icons-name');
     const iconCaps = document.querySelectorAll(".icons-caps");
-    if (sidebar.style.display ==='none') {
+    const themeToogle = document.getElementById("theme-toogle");
+    if (sidebar.style.display === 'none') {
         sidebar.style.display = 'flex';
         sidebar.style.zIndex = '10'
         sidebar.style.marginTop = '0vh'
@@ -65,6 +69,7 @@ function openHam() {
         balance.style.width = "100%";
         balanceText.style.fontSize = "14px";
         iconCaps.forEach(iconCap => iconCap.style.width = '100%');
+        themeToogle.style.display = 'flex';
     }
     else {
         sidebar.style.display = 'none';
@@ -115,3 +120,39 @@ function active2(index) {
     imgElement.src = buttons[index].querySelector('img').src;
 }
 
+
+const switchToDark = () => {
+    document.getElementById('theme-btn').style.justifyContent = 'flex-end';
+    document.body.classList.remove('light-theme');
+    localStorage.setItem('theme', 'dark');
+    console.log('dark')
+}
+
+const switchToLight = () => {
+
+    document.getElementById('theme-btn').style.justifyContent = 'flex-start';
+    document.body.classList.add('light-theme');
+    localStorage.setItem('theme', 'light');
+    console.log('light')
+}
+
+function themetoogle() {
+    if(document.getElementById('theme-btn').style.justifyContent === 'flex-end'){
+        switchToLight()
+    }
+    else
+    {
+        switchToDark();
+    }
+}
+
+window.addEventListener('load', (event) => {
+    const getTheme = localStorage.getItem('theme');
+    console.log(getTheme)
+    if (getTheme === 'dark') {
+        switchToDark();
+    }
+    else if (getTheme === 'light') {
+        switchToLight();
+    }
+})
