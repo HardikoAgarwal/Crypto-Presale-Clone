@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Slap A Meme</title>
+    <script src="https://kit.fontawesome.com/a0122e0f81.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-logo">
+            <img src="Images/Logo.png" alt="">
+            <p>Slap <span>A</span> Meme</p>
+        </div>
+        <div class="nav-2">
+            <div class="nav-button">
+                Connect Wallet
+            </div>
+            <div class="hamburger" onclick="openHam()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="side-bar" id="side-bar">
+            <div class="side-items" id="side-items">
+                <div class="side-icons" >
+                    <div class="icons-caps active" id="icons-caps">
+                        <i class="fa-solid fa-house"></i>
+                        <p class="icons-name">Home</p>
+                    </div>
+                    <div class="icons-caps" id="icons-caps">
+                        <i class="fa-solid fa-file"></i>
+                        <p class="icons-name">Whitepaper</p>
+                    </div>
+                    <span class="icons-caps">
+                        <div class="icons-caps" id="icons-caps">
+                            <i class="fa-solid fa-rocket"></i>
+                            <p class="icons-name">Launchpad</p>
+                        </div>
+                        <div class="icons-caps" id="icons-caps">
+                            <i class="fa-solid fa-circle-dot"></i>
+                            <p class="icons-name">Token Creator</p>
+                        </div>
+                        <div class="icons-caps" id="icons-caps">
+                            <i class="fa-regular fa-paper-plane"></i>
+                            <p class="icons-name">Multisender</p>
+                        </div>
+                        <div class="icons-caps" id="icons-caps">
+                            <i class="fa-solid fa-lock"></i>
+                            <p class="icons-name">Token Locker
+                            </p>
+                        </div>
+                    </span>
+                </div>
+                <div class="side-socials">
+                    <div class="socials" id="socials">
+                        <i class="fa-brands fa-telegram"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <i class="fa-brands fa-medium"></i>
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="balance" id="balance">
+                        <p id="balance-text">SLAP</p>
+                        0.01&dollar;
+                    </div>
+                    <div class="theme-toogle" id="theme-toogle">
+                        <div class="theme-name">
+                            <p>Light</p>
+                            <i class="fa-solid fa-sun"></i>
+                        </div>
+                        <div class="theme-btn" id="theme-btn" onclick="themetoogle()">
+                            <span class="btn-circle"></span>
+                        </div>
+                        <div class="theme-name">
+                            <i class="fa-solid fa-moon"></i>
+                            <p>Dark</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="side-btn" id="side-btn">
+                <div class="button" id="button" onclick="openNav()">
+                    <i class="fa-solid fa-angles-right"></i>
+                </div>
+            </div>
+        </div>
+        <div class="body" id="body">
+            <div class="body-head">
+                <img src="Images/Logo.png" alt="">
+                <div class="head-cont">
+                    <h1><span>Slap A Meme</span> - Token for Life</h1>
+                    <p>Hey Crypto #slapameme Enthusiasts and Memelords! Welcome to Slap A Meme - where tokens are as
+                        timeless as the best memes and our launchpad is hotter than the spiciest takes on the internet!
+                        Get ready to dive into the world of crypto with a touch of humor, because, let's face it, life's
+                        too short not to have fun with tokens!</p>
+                </div>
+                <div class="head-links">
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i>Etherscan.io</a>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i>Bscscan.com</a>
+                    <a href=""><i class="fa-brands fa-ethereum"></i>Audited (ETH)</a>
+                    <a href=""><i class="fa-solid fa-coins"></i>Audited (BNB)</a>
+                </div>
+            </div>
+            <div class="body-stats">
+                <div class="stats-timer">
+                    <div class="timer1">
+                        <div class="timer-box">
+                            <p id="days"></p>
+                            <span>DAYS</span>
+                        </div>
+                        <div class="timer-box">
+                            <p id="hours"></p>
+                            <span>HOURS</span>
+                        </div>
+                    </div>
+                    <div class="timer1">
+                        <div class="timer-box">
+                            <p id="minutes"></p>
+                            <span>MINUTES</span>
+                        </div>
+                        <div class="timer-box">
+                            <p id="seconds"></p>
+                            <span>SECONDS</span>
+                        </div>
+                    </div>
+                    <div class="timer2">
+                        <p>
+                            <i class="fa-solid fa-calendar-days"></i>TIME REMAINING FOR PRESALE
+                        </p>
+                    </div>
+                </div>
+                <div class="stats-info">
+                    <div class="info1">
+                        <div class="info1-card">
+                            <h4>Name: </h4>
+                            <p>Slap A Meme</p>
+                        </div>
+                        <div class="info1-card">
+                            <h4>Symbol: </h4>
+                            <p>SLAP</p>
+                        </div>
+                        <div class="info1-card">
+                            <h4>Decimals: </h4>
+                            <p>18</p>
+                        </div>
+                        <div class="info1-card">
+                            <h4>Chain: </h4>
+                            <p>ETH & BNB</p>
+                        </div>
+                    </div>
+                    <div class="info2">
+                        <div class="info2-btn info-active" onclick="active(0)">
+                            <i class="fa-brands fa-ethereum"></i>
+                            <p>Buy on Ethereum Chain</p>
+                        </div>
+                        <div class="info2-btn" onclick="active(1)">
+                            <i class="fa-solid fa-coins"></i>
+                            <p>Buy on BNB Chain</p>
+                        </div>
+                    </div>
+                    <div class="info3">
+                        <p>1 SLAP = <span>0.01</span> USD</p>
+                        <div class="info3-cards">
+                            <div class="info3-card1 active3" onclick="active2(0)">
+                                <img id="coin-img" src="Images/eth.png" alt="">
+                                <p id="coin-name">ETH</p>
+                            </div>
+                            <div class="info3-card1" onclick="active2(1)">
+                                <img src="Images/usdt.png" alt="">
+                                <p>USDT</p>
+                            </div>
+                            <div class="info3-card1" onclick="active2(2)">
+                                <img src="Images/busd.png" alt="">
+                                <p>BUSD</p>
+                            </div>
+                            <div class="info3-card1" onclick="active2(3)">
+                                <img src="Images/usdc.png" alt="">
+                                <p>USDC</p>
+                            </div>
+                        </div>
+                        <p>1 USD = <span>100</span> SLAP</p>
+                    </div>
+                    <div class="info4">
+                        <span id="wlt-balance">
+                            <img id='wlt-img' src="Images/eth.png" alt="">
+                            <h4 id="wlt-name">ETH Balance:</h4>
+                            <p>0.00</p>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-wallet"></i>
+                            <h4>SLAP Balance:</h4>c
+                            <p>0.00</p>
+                        </span>
+                    </div>
+                    <div class="info5">
+                        <input type="number" class="input" placeholder="Enter Exchange Amount">
+                        <button><i class="fa-solid fa-right-left"></i>Swap Now</button>
+                    </div>
+                    <div class="info6">
+                        <span>5%</span>
+                        <span>15%</span>
+                        <span>25%</span>
+                        <span>30%</span>
+                        <span>50%</span>
+                        <span>75%</span>
+                        <span>100%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="key-bar">
+                <div class="key1">
+                    <i class="fa-solid fa-star"></i>
+                    <p>You Can buy SLAP directly by sending
+                        ETH
+                        to Presale Address</p>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="key2">
+                    <p>0x62EF84b6ad7259Cf4f636E4667C1E79C3Aa254e4</p>
+                    <i class="fa-solid fa-copy"></i>
+                </div>
+            </div>
+            <div class="line">
+            </div>
+            <div class="footer-info">
+                <div class="footer-card">
+                    <span><i class="fa-solid fa-rocket"></i>
+                        <h2>LAUNCHPAD</h2>
+                    </span>
+                    <p>Get ready to break free from the monotony of typical crypto launches! Welcome to the most
+                        entertaining and lucrative Launchpad in the entire blockchain universe - The Slap A Meme
+                        Launchpad! <span2>Slap A Meme</span2>, the Token for Life, promises never to get old or cold.
+                        Buckle up for an exciting journey into the crypto space like never before!</p>
+                </div>
+                <div class="footer-card">
+                    <span><i class="fa-solid fa-lightbulb"></i></i>
+                        <h2>WHY SLAP A MEME ?</h2>
+                    </span>
+                    <p>Slap A Meme presents a unique Launchpad experience, making token launches as enjoyable as sharing
+                        memes. Our Launchpad takes your projects to new heights with a touch of humor and excitement.
+                        Holders of Slap A Meme enjoy a <span2>Special 5% bonus</span2> on every token purchase during
+                        our launches. Get ready for a party where memes meet fortune!</p>
+                </div>
+            </div>
+            <div class="line2">
+            </div>
+            <footer>
+                <p>Disclaimer: The information provided shall not in any way constitute a recommendation as to whether
+                    you should invest in any product discussed. We accept no liability for any loss occasioned to any
+                    person acting or refraining from action as a result of any material provided or published. A project
+                    receiving the KYC badge does not mean in any way that we approve or recommend that project, even if
+                    we host an AMA with them. Please always DYOR before investing, remembering that Slap A Meme is a
+                    decentralized platform.</p>
+                <p>CRYPTO CURRENCY AND RELATED PRODUCTS ARE UNREGULATED AND RISKY PLEASE DO YOUR OWN RESEARCH BEFORE
+                    INVESTING AND FOLLOW YOUR COUNTRY LAW's.</p>
+            </footer>
+        </div>
+    </section>
+</body>
+</html>
