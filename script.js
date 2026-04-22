@@ -1,7 +1,7 @@
 let nav_open = false
 let ham_open = false
 
-const countdownDate = new Date("August 21, 2025 00:00:40").getTime();
+const countdownDate = new Date("August 21, 2027 00:00:40").getTime();
 const countdownInterval = setInterval(function () {
     const now = new Date().getTime();
     const distance = countdownDate - now;
